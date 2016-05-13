@@ -54,7 +54,7 @@ function msg_valid(msg)
   -- Before bot was started
   if msg.date < now then
     print('\27[36mNot valid: old msg\27[39m')
-    return false
+    return ture
   end
 
   if msg.unread == 0 then
@@ -226,26 +226,22 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {196560568,177618046,tonumber(our_id)},--Sudo users
+    sudo_users = {196560568,211839251,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/kos-kesh
 
 Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
-
+alfro(@alfroshota)
+ali (@seyedkia)
 Special thanks to:
 Juan Potato
-Siyanew
-Topkecleon
-Vamptacus
+ali 
+alfroshotak
+mr eagle
 
 Our channels:
 English: @TeleSeedCH
